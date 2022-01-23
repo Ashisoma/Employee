@@ -44,7 +44,7 @@ public class EmployeeResource {
         return new ResponseEntity<>(newEmployee, HttpStatus.OK);
     }
 
-    @PostMapping("/delete/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> updateEmployee(@PathVariable("id") Long id){
          employeeService.deleteEmployeeId(id);
         return new ResponseEntity<>( HttpStatus.OK);
