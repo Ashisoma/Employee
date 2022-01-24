@@ -20,7 +20,7 @@ public class EmployeeResource {
         this.employeeService = employeeService;
     }
 
-    @GetMapping
+    @GetMapping("/all")
     public ResponseEntity<List<Employee>> getEmployee(){
         List<Employee> employeeList = employeeService.allEmployees();
         return new ResponseEntity<>(employeeList, HttpStatus.OK);
