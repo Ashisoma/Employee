@@ -1,7 +1,7 @@
 # Employee
 
 ## Author
-**Onesmus Okali**
+- **Onesmus Okali**
 
 ## Description
 This spring boot application with Postgresql database. It is a employee management backend api with endpoint to varous functions for different entities that handle queries for the api.
