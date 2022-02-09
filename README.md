@@ -4,7 +4,7 @@
 - **Onesmus Okali**
 
 ## Description
-This spring boot application with Postgresql database. It is a employee management backend api with endpoint to varous functions for different entities that handle queries for the api.
+This spring boot application with Mysql database. It is a employee management backend api with endpoint to varous functions for different entities that handle queries for the api.
 The front end of this application is done in [Angular](https://github.com/Ashisoma/employeemanagerapp)
 
 ## Technologies Used
